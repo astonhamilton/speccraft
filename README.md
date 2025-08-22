@@ -2,7 +2,7 @@
 
 *An experiment in ontology-driven architecture agents*
 
-🚧 **Work in progress** 🚧
+🚧 **Work in progress: Under active development** 🚧
 
 SpecCraft explores a central question:
 👉 *Can ontologies serve as the backbone for AI agents that help design software systems?*
@@ -40,6 +40,18 @@ Artifacts — markdown specs, PlantUML diagrams, exports — are not “outputs�
 
 ## 3 · Scope of the Experiment (v0)
 
+SpecCraft is a self-contained web app — a minimal but functional proof of concept you can run straight from GitHub Pages. It’s conversational and iterative like a general-purpose LLM, but under the hood it maintains a structured model of your system that updates turn by turn. You don’t describe everything once — you refine the spec over multiple turns as new details emerge.
+
+**Try it**
+
+1. Open `https://astonhamilton.github.io/speccraft`
+2. Go to **Settings → API Key** and paste your OpenAI key
+   • Stored only in your browser’s local storage
+3. Describe your system in plain language, then refine it over multiple turns
+   • “Mobile app → API gateway → services → Postgres” → add missing pieces as you go
+4. Watch a draft spec appear and evolve
+   • The C4-style graph grows as you converse; drag to tweak
+   
 This experiment is deliberately narrow:
 
 **In scope**
